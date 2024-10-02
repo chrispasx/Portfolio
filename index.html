@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <ul class="header">
+        <a href="#" class="logo">Chris</a>
+        <div class="menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li> <button class="quote" id="quoteButton">Get a Quote</button></li>
+        </div>
+    </ul>
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Chris!</h1>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quos atque sed repellendus doloribus
+                aliquid debitis laboriosam ipsum nostrum assumenda magni?</p>
+            <div class="btn-box">
+                <a href="#" class="hire">Hire me</a>
+                <a href="#" class="talk">Let's Talk</a>
+
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="photos/11.png" alt="home image">
+        </div>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+	
+	<!--PROJECTS SECTION -->
+	<section class="projects">
+        <h2>My Projects</h2>
+		<div class="project-container">
+			<div class="project1">
+				<a href="/weather_app/index.html" target="_blank"><img src="/photos/photos-projects/Weather.png" alt="weather app" class="weather"></a>
+			</div>
+			<div class="project2">
+				<a href="#"><img src="/photos/photos-projects/calculator.png" alt="calculator" class="calculator"></a>
+			</div>
+			<div class="project1">
+				<a href="#"><img src="/photos/photos-projects/password.png" alt="password generator" class="password"></a>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+    <!-- CONTACT FORM -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" class="form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
