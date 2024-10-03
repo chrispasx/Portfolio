@@ -1,10 +1,27 @@
+const url = 'https://quotes15.p.rapidapi.com/quotes/random/?language_code=en';
+const options = {
+    method: 'GET',
+    headers: {
+        'x-rapidapi-key': '503b895f6fmshe5e9bb15096ebbep13753ejsnc230d900d62f',
+        'x-rapidapi-host': 'quotes15.p.rapidapi.com'
+    }
+};
 
+async function getQuote() {
+    try {
+        const response = await fetch(url, options);
+        const result = await response.json();
 
+        Swal.fire({
+            title: 'Your Quote',
+            text: result.content,
+            icon: 'info',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#081c29'
+        });
+    } catch (error) {
+        console.error(error);
+    }
+}
 
-
-const quotes = [
-    "The best way to predict the future is to invent it.",
-    "Life is 10% what happens to us and 90% how we react to it.",
-    "The only limit to our realization of tomorrow is our doubts of today.",
-    "Do something today that your future self will thank you for."
-]
+document.getElementById('quoteButton').addEventListener('click', getQuote);
