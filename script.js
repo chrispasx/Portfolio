@@ -25,3 +25,12 @@ async function getQuote() {
 }
 
 document.getElementById('quoteButton').addEventListener('click', getQuote);
+
+
+//ΕΜΦΑΝΙΣΗ ΜΕΝΟΥ ΣΕ ΚΙΝΗΤΑ
+
+document.getElementById("hamburger").addEventListener("click", function() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("active"); 
+});
+
