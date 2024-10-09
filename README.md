@@ -31,11 +31,11 @@
 
    This portfolio website is a work in progress and is continuously being updated. New features and improvements are added weekly. Feel free to check back regularly for the latest updates!
 
- ## Inspiration
+ ## 💡 Inspiration
 
 This portfolio was inspired by a YouTube tutorial, and while I have customized it significantly to reflect my personal style, I acknowledge the initial design influence.
 
-## Getting Started
+## ☛ Getting Started
 
 To view my portfolio, simply clone the repository and open `index.html` in your browser.
 
