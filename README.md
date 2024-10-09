@@ -16,7 +16,7 @@
 
 
 
-💻 Projects Included
+ ## 💻 Projects Included
 
  -Weather App: A weather forecast application that fetches live weather data from an API and displays it in a user-friendly interface.
  
@@ -24,7 +24,7 @@
  
  -Calculator: A functional calculator with basic arithmetic operations, built using JavaScript.
   
- 🛠️ Status and Updates
+ ## 🛠️ Status and Updates
 
    This portfolio website is a work in progress and is continuously being updated. New features and improvements are added weekly. Feel free to check back regularly for the latest updates!
 
