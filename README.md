@@ -8,7 +8,7 @@
 
 
 
-## Technologies Used
+## 🔑 Technologies Used
 
 - HTML
 - CSS
