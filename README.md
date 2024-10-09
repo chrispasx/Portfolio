@@ -15,7 +15,7 @@
 
 
 ## 🎥 Demo 
-![Uploading page-demo.gif…]()
+![page-demo](https://github.com/user-attachments/assets/0b844378-5cb4-44ca-bf1b-468f5ad694d1)
 
 
 
