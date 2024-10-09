@@ -45,7 +45,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: transparent;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
