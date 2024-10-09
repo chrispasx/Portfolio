@@ -3,6 +3,10 @@
 
   This is a fully responsive personal portfolio website built with HTML, CSS, and JavaScript. It features a sleek design that adapts to all screen sizes, providing an optimal experience across devices. The website showcases key projects, including a weather app, a password generator and a calculator. It also includes a contact form, allowing visitors to reach out directly (though further back-end setup is required for actual communication). The project utilizes Bootstrap Icons and Box Icons for clean and simple icons, and SweetAlert for enhanced user-friendly alerts.
 
+  ## 🎥 Demo 
+![page-demo](https://github.com/user-attachments/assets/0b844378-5cb4-44ca-bf1b-468f5ad694d1)
+
+
 
 ## Technologies Used
 
@@ -12,12 +16,6 @@
 - Box Icons
 - Bootstrap Icons
 - SweetAlert for interactive alerts
-
-
-## 🎥 Demo 
-![page-demo](https://github.com/user-attachments/assets/0b844378-5cb4-44ca-bf1b-468f5ad694d1)
-
-
 
 
 
