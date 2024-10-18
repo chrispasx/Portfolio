@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const mainContent = document.getElementById("main-content");
         mainContent.classList.add("show"); 
         mainContent.style.display = "block"; 
-    }, 3000); 
+    }, 4000); 
 });
 
 
