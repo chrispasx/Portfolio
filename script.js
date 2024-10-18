@@ -7,6 +7,22 @@ const options = {
     }
 };
 
+// LOADING SCREEN
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        document.getElementById("loading-screen").style.display = "none"; 
+        const mainContent = document.getElementById("main-content");
+        mainContent.classList.add("show"); 
+        mainContent.style.display = "block"; 
+    }, 3000); 
+});
+
+
+
+
+
+
+
 async function getQuote() {
     try {
         const response = await fetch(url, options);
